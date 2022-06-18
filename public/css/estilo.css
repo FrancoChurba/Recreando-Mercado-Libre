@@ -78,6 +78,8 @@ header .form .submit{
 
 div.burger-menu{
     text-align: center;
+   
+
 }
 
 div.burger-menu i{
@@ -89,6 +91,11 @@ div.burger-menu i{
     margin: 10px 0px 20px 0px;
     padding: 10px;
     width: 40px;
+    
+}
+button.burger{
+    background-color: #EAC926;
+    outline: none;
 }
 
 div.last-visit,
