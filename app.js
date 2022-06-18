@@ -1,17 +1,19 @@
 const express = require('express');
 const app = express();
-app.use(express.static('public'));
+const path = require('path')
+app.use(express.static('/public'));
 
 
 app.get('/', (req,res)=>{
     res.sendFile(__dirname + '/views/home.html');
 });
 
-app.get('/login', (req,res)=>{
+
+app.get('/', (req,res)=>{
     res.sendFile(__dirname + '/views/login.html');
 });
 
-app.get('/register', (req,res)=>{
+app.get('/', (req,res)=>{
     res.sendFile(__dirname + '/views/register.html');
 });
 
